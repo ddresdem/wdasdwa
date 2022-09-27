@@ -1410,7 +1410,7 @@ if data.FromSpeaker == getgenv().Settings.Main then
     end
     local grave_message = string.split(data.Message, " ") -- splits the message the player sends
     if grave_message[1] == getgenv().Settings.Grave then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(177.735, 12.4514, 66.2221, 0.9998, 0, -0.0214, 0, 1, 0, 0.0214, 0, 0.9998)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(179.2354, 12.4514, 65.5335, -0.0151, 0, 0.9999, 0, 1, 0, -0.9999, 0, -0.0151)
         wait(0.75)
         local Target = GetPlayer(grave_message[2]);
         local Target2 = GetPlayer(grave_message[3]);
