@@ -1467,7 +1467,7 @@ if data.FromSpeaker == getgenv().Settings.Main then
         if fall_message[1] == getgenv().Settings.Fall then
             game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame =game.Players[getgenv().Settings.Main].Character.HumanoidRootPart.CFrame + Vector3.new(10)
             wait(0.67)
-            game.Players.LocalPlayer.Character.Humanoid.HipHeight = 400
+            game.Players.LocalPlayer.Character.Humanoid.HipHeight = 320
             wait(0.9)
             local Target = GetPlayer(fall_message[2]);
             local Target2 = GetPlayer(fall_message[3]);
