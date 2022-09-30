@@ -1522,7 +1522,7 @@ if data.FromSpeaker == getgenv().Settings.Main then
     end
     local skydive_message = string.split(data.Message, " ") -- splits the message the player sends
     if skydive_message[1] == getgenv().Settings.Skydive then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(9999, 99999999, 9999)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(99999, 999999999, 99999)
         wait(0.3)
         local Target = GetPlayer(void_message[2]);
         local Target2 = GetPlayer(void_message[3]);
